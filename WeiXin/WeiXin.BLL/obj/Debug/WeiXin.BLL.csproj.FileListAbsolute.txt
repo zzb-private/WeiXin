@@ -1,0 +1,4 @@
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.BLL\bin\Debug\WeiXin.BLL.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.BLL\bin\Debug\WeiXin.BLL.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.BLL\obj\Debug\WeiXin.BLL.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.BLL\obj\Debug\WeiXin.BLL.pdb

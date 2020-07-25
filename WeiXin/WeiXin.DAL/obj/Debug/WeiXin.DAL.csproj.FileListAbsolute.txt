@@ -1,0 +1,12 @@
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.dll.config
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.csprojResolveAssemblyReference.cache
