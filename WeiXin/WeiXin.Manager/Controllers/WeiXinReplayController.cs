@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using WeiXin.BLL;
 
 namespace WeiXin.Manager.Controllers
@@ -12,7 +8,7 @@ namespace WeiXin.Manager.Controllers
         // GET: WeiXinReplay
         public ActionResult Index(string signature, string timestamp, string nonce, string echostr)
         {
-            
+
             //if (string.IsNullOrEmpty(SNFWeiXinProcess.TOKEN)) return Content("请先设置Token！");
 
             //var ent = "";
@@ -21,7 +17,12 @@ namespace WeiXin.Manager.Controllers
             //    return Content("参数错误！");
             //}
             //return Content(echostr); //返回随机字符串则表示验证通过
-            return View();
+
+            WeiXinService weiXinService = new WeiXinService();
+            var tonken = weiXinService.GetAccess_token();
+            
+            return Content(echostr);
         }
+
     }
 }
