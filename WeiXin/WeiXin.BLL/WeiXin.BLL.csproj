@@ -42,10 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CaCheHelper.cs" />
-    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="Tool\CaCheHelper.cs" />
+    <Compile Include="Tool\ConfigHelper.cs" />
+    <Compile Include="Tool\WeiXinCheck.cs" />
     <Compile Include="WeiXinCheck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeiXinService.cs" />
+    <Compile Include="WX_API\WeiXinApi.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
