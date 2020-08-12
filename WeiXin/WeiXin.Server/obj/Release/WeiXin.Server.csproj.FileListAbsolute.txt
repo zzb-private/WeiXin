@@ -1,0 +1,17 @@
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\WeiXin.Server.dll.config
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\WeiXin.Server.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\WeiXin.Server.pdb
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\EntityFramework.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\Newtonsoft.Json.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\WeiXin.DAL.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\WeiXin.DAL.pdb
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\WeiXin.DAL.dll.config
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\EntityFramework.xml
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\bin\Release\Newtonsoft.Json.xml
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\obj\Release\WeiXin.Server.csprojAssemblyReference.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\obj\Release\WeiXin.Server.csproj.CoreCompileInputs.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\obj\Release\WeiXin.Server.csproj.CopyComplete
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\obj\Release\WeiXin.Server.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.Server\obj\Release\WeiXin.Server.pdb

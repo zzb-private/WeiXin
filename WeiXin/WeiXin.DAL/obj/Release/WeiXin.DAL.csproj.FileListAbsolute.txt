@@ -1,0 +1,15 @@
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Release\WeiXin.DAL.dll.config
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Release\WeiXin.DAL.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Release\WeiXin.DAL.pdb
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Release\EntityFramework.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Release\EntityFramework.xml
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.csprojAssemblyReference.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.Migrations.InitialCreate.resources
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.Migrations.merge.resources
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.csproj.GenerateResource.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.csproj.CopyComplete
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Release\WeiXin.DAL.pdb

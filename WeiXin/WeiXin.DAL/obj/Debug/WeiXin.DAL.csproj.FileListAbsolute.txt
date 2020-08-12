@@ -1,12 +1,14 @@
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.dll.config
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.dll
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.pdb
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.dll
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.SqlServer.dll
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.xml
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.SqlServer.xml
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.dll
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.pdb
-c:\users\administrator\documents\visual studio 2015\Projects\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.dll.config
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Debug\WeiXin.DAL.pdb
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.csproj.CopyComplete
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.dll
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.pdb
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.Migrations.InitialCreate.resources
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.csproj.GenerateResource.cache
+C:\Users\Net\Desktop\新建文件夹\WeiXin\WeiXin.DAL\obj\Debug\WeiXin.DAL.Migrations.merge.resources

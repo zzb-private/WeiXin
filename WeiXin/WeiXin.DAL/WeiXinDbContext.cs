@@ -13,9 +13,9 @@ namespace WeiXin.DAL
     /// </summary>
     public class WeiXinDbContext:DbContext 
     {
-        static WeiXinDbContext()
+        public  WeiXinDbContext():base("DefaultConnection")
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<WeiXinDbContext>());
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<WeiXinDbContext>());
             //Database.SetInitializer<WeiXinDbContext>(null);
         }
 

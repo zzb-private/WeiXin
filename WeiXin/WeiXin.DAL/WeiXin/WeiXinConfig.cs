@@ -14,6 +14,8 @@ namespace WeiXin.DAL.WeiXin
 
         public string Token { get; set; }
 
+        public DateTime? Token_EndDate { get; set; }
+
         public string AppSecret { get; set; }
     }
 }
