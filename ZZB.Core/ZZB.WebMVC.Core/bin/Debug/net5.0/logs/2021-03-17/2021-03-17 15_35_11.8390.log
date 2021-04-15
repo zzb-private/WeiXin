@@ -1,0 +1,22 @@
+2021-03-17 15:35:11.8390  ERROR 
+----------------------------------------------------Begin-------------------------------------
+1. 操作时间: 15:35 
+2. 操作人: 0 
+3. Area  : 
+3. Controller  : Home
+3. Action  : Index
+4. 错误内容: Attempted to divide by zero.
+5. 跟踪:    at ZZB.WebMVC.Core.Controllers.HomeController.Index() in C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.WebMVC.Core\Controllers\HomeController.cs:line 69
+   at lambda_method568(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+-----------------------------------------------------End--------------------------------------
+

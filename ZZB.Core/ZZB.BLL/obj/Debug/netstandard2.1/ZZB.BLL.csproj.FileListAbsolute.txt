@@ -1,0 +1,14 @@
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\bin\Debug\netstandard2.1\ZZB.BLL.deps.json
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\bin\Debug\netstandard2.1\ZZB.BLL.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\bin\Debug\netstandard2.1\ZZB.BLL.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\bin\Debug\netstandard2.1\ZZB.DAL.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\bin\Debug\netstandard2.1\ZZB.DTO.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\bin\Debug\netstandard2.1\ZZB.DAL.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\bin\Debug\netstandard2.1\ZZB.DTO.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\obj\Debug\netstandard2.1\ZZB.BLL.csprojAssemblyReference.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\obj\Debug\netstandard2.1\ZZB.BLL.AssemblyInfoInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\obj\Debug\netstandard2.1\ZZB.BLL.AssemblyInfo.cs
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\obj\Debug\netstandard2.1\ZZB.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\obj\Debug\netstandard2.1\ZZB.BLL.csproj.CopyComplete
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\obj\Debug\netstandard2.1\ZZB.BLL.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.BLL\obj\Debug\netstandard2.1\ZZB.BLL.pdb

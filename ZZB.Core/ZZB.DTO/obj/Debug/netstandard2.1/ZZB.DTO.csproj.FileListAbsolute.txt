@@ -1,0 +1,9 @@
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\bin\Debug\netstandard2.1\ZZB.DTO.deps.json
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\bin\Debug\netstandard2.1\ZZB.DTO.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\bin\Debug\netstandard2.1\ZZB.DTO.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\obj\Debug\netstandard2.1\ZZB.DTO.AssemblyInfoInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\obj\Debug\netstandard2.1\ZZB.DTO.AssemblyInfo.cs
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\obj\Debug\netstandard2.1\ZZB.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\obj\Debug\netstandard2.1\ZZB.DTO.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\obj\Debug\netstandard2.1\ZZB.DTO.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DTO\obj\Debug\netstandard2.1\ZZB.DTO.csprojAssemblyReference.cache

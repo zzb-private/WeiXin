@@ -1,0 +1,9 @@
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\obj\Debug\netstandard2.1\ZZB.DAL.AssemblyInfoInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\obj\Debug\netstandard2.1\ZZB.DAL.AssemblyInfo.cs
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\obj\Debug\netstandard2.1\ZZB.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\bin\Debug\netstandard2.1\ZZB.DAL.deps.json
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\bin\Debug\netstandard2.1\ZZB.DAL.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\bin\Debug\netstandard2.1\ZZB.DAL.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\obj\Debug\netstandard2.1\ZZB.DAL.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\obj\Debug\netstandard2.1\ZZB.DAL.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.DAL\obj\Debug\netstandard2.1\ZZB.DAL.csprojAssemblyReference.cache

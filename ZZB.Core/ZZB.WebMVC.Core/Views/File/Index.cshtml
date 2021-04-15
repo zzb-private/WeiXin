@@ -1,0 +1,266 @@
+﻿
+@{
+    ViewData["Title"] = "上传文件";
+}
+<link rel="stylesheet" href="~/_layout/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="~/_layout/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+<link rel="stylesheet" href="~/_layout/dist/css/adminlte.min.css">
+@section Style
+{
+    <style>
+        .el-breadcrumb__inner a, .el-breadcrumb__inner.is-link {
+            color: #007bff
+        }
+        .demo-table-expand {
+            font-size: 0;
+        }
+
+            .demo-table-expand label {
+                width: 90px;
+                color: #99a9bf;
+            }
+
+            .demo-table-expand .el-form-item {
+                margin-right: 0;
+                margin-bottom: 0;
+                width: 50%;
+            }
+    </style>
+}
+
+<div class="card" id="">
+
+    <div class="card-header">
+        <h3 class="card-title">
+            <el-breadcrumb separator="/">
+                <el-breadcrumb-item v-for="(item,index) in formSearch.menu">
+                    <a href="javascript:void(0)" v-if="formSearch.searchid != item.val" @@click="change(item.val)">{{item.label}}</a>
+                    <a href="javascript:void(0)" v-else>{{item.label}}</a>
+                </el-breadcrumb-item>
+            </el-breadcrumb>
+        </h3>
+
+        <div class="card-tools">
+            <div class="input-group input-group-sm">
+                <button type="button" class="btn bg-gradient-primary btn-xs" style="margin-right:10px" @@click="dialogVisible=true">上传文件</button>
+                <button type="button" class="btn bg-gradient-primary btn-xs" style="margin-right: 10px" @@click="dialogFormVisible=true">新建文件夹</button>
+                <input type="text" v-model="formSearch.search" class="form-control float-right" placeholder="所有您的文件">
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-default">
+                        <i class="fas fa-search" @@click="init()"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body table-responsive">
+        <table class="table table-hover text-nowrap">
+            <thead>
+                <tr>
+                    <th><el-checkbox name="type" style=""></el-checkbox></th>
+                    <th>文件名</th>
+                    <th>大小</th>
+                    <th>共享</th>
+                    <th>修改日期</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in tableData">
+                    <td width="5%"><el-checkbox name="type" ></el-checkbox></td>
+                    <td width="50%">
+                        <img :src="item.iCon" style="width: 39px;padding-right:10px" />
+                        <a v-if="item.isFolder" href="javascript:void(0)" @@click="open(item.id,item.name)">{{item.name}}</a>
+                        
+                        <span v-else>{{item.fileUri}}<a :href="item.fileUri">{{item.name}}</a></span>
+                    </td>
+
+                    <td><span class="tag tag-success">{{item.fileSize}}</span></td>
+                    <td>
+                        <el-switch v-model="item.isShare == 'True'">
+                        </el-switch>
+                    </td>
+                    <td>{{item.modifyDateStr}}</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card-footer">
+         
+    </div>
+</div>
+
+
+<el-dialog title="新建文件夹" :visible.sync="dialogFormVisible" width="430px">
+    <el-form ref="form" :model="form" label-width="100px">
+        <el-form-item label="文件夹名称">
+            <el-input v-model="form.name"></el-input>
+        </el-form-item>
+        <el-form-item label="选择图标">
+            <el-select v-model="form.iCon" placeholder="请选择图标">
+                <el-option v-for="item in folder" :label="item.label" :value="item.val">
+                    <span style="float: left">
+                        <img :src="item.val" style=" width: 20px;" />
+                    </span>
+                    <span style="float: right; color: #8492a6; font-size: 13px">{{ item.label }}</span>
+                </el-option>
+            </el-select><img :src="form.iCon" style=" width: 20px;" />
+        </el-form-item>
+        <el-form-item label="是否共享">
+            <el-switch v-model="form.isShare"></el-switch>
+        </el-form-item>
+        <el-form-item label="文件夹大小">
+            <el-input v-model="form.fileSize">
+                <template slot="append">
+                    M
+                </template>
+            </el-input>
+        </el-form-item>
+        <el-form-item>
+            <el-button type="primary" @@click="onSubmit">立即创建</el-button>
+            <el-button @@click="dialogFormVisible = false">取消</el-button>
+        </el-form-item>
+    </el-form>
+</el-dialog>
+<el-dialog title="上传文件"
+           :visible.sync="dialogVisible"
+           width="30%">
+    <el-upload class="upload-demo"
+               ref="upload"
+               action="/File/Upload"
+               :on-success="handleSuccess"
+               :on-preview="handlePreview"
+               :on-remove="handleRemove"
+               :file-list="fileList"
+               :auto-upload="false">
+        <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
+        <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
+    </el-upload>
+    <span slot="footer" class="dialog-footer">
+        <el-button @@click="dialogVisible = false">取 消</el-button>
+        <el-button type="primary" @@click="submitUpload">确 定 上 传</el-button>
+    </span>
+</el-dialog>
+@section Scripts
+{
+
+    <script src="~/_layout/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/_layout/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/_layout/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="~/_layout/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script>
+
+        var page = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    dialogFormVisible: false,
+                    dialogVisible: false,
+                    formSearch: {
+                        search: '',
+                        searchid: '',
+                        menu: [{
+                            val: '',
+                            label: '全部文件'
+                        }]
+                    },
+
+                    folder: [{ val: "/imgs/folder/folder-1.png", label: "folder-1", },
+                    { val: "/imgs/folder/folder-2.png", label: "folder-2", },
+                    { val: "/imgs/folder/folder-3.png", label: "folder-3", },
+                    { val: "/imgs/folder/folder-4.png", label: "folder-4", },
+                    { val: "/imgs/folder/folder-5.png", label: "folder-5", }],
+                    form: {
+                        name: '',
+                        iCon: '/imgs/folder/folder-3.png',
+                        isFolder: true,
+                        isShare: false,
+                        fileSize: '2',
+                        documentInfoId: ''
+                    },
+                    formInline: {
+                        user: '',
+                        region: ''
+                    },
+                    tableData: [],
+                    multipleSelection: [],
+                    fileList: [],
+                }
+            },
+            created() {
+                this.Init();
+            },
+            methods: {
+                Init() {
+                    var that = this;
+                    $.get("/Document/DocumentManager/GetDocumentList", {
+                        DocumentId:
+                            that.formSearch.searchid, search: that.formSearch.search
+                    }, function (res) {
+                        console.log(res)
+                        that.tableData = res.data.table;
+                    });
+                },
+                open(id, label) {
+                    var that = this;
+                    this.formSearch.searchid = id;
+                    this.formSearch.menu.push({
+                        val: id,
+                        label: label
+                    });
+                    that.Init();
+                },
+                change(id) {
+                    var that = this;
+                    that.formSearch.searchid = id;
+                    var d = that.formSearch.menu.findIndex(p => p.val == id)
+                    if (d > -1) {
+                        that.formSearch.menu.splice(d + 1, that.formSearch.menu.length);
+                        that.Init();
+                    }
+                },
+                onSubmit() {
+                    var that = this;
+                    console.log(that.form)
+                    that.form.documentInfoId = that.formSearch.searchid
+                    $.post("/Document/DocumentManager/AddFolder", that.form, function () {
+                        that.dialogFormVisible = true;
+                        that.$message.success("ok")
+                        that.Init();
+                    })
+                },
+                handleSelectionChange(val) {
+                    this.multipleSelection = val;
+                },
+                submitUpload() {
+                    this.$refs.upload.submit();
+                },
+                handleRemove(file, fileList) {
+                    console.log(file, fileList);
+                },
+                handlePreview(file) {
+                    console.log(file);
+                },
+                handleSuccess(response, file, fileList) {
+                    var that = this;
+                    var data = {
+                        DocumentInfoId: that.form.documentInfoId,
+                        FileId: response.id,
+                        IsShare: false,
+                        IsFolder: false,
+                        Name: response.displayName,
+                    }
+                    $.post("/Document/DocumentManager/AddFolder", data, function () {
+                        that.dialogVisible = true;
+                        that.$message.success("ok")
+                        that.Init();
+                    })
+                }
+            }
+        })
+    </script>
+}
+

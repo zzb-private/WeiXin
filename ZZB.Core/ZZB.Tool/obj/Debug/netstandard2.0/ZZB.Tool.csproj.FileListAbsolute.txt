@@ -1,0 +1,9 @@
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\bin\Debug\netstandard2.0\ZZB.Tool.deps.json
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\bin\Debug\netstandard2.0\ZZB.Tool.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\bin\Debug\netstandard2.0\ZZB.Tool.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\obj\Debug\netstandard2.0\ZZB.Tool.AssemblyInfoInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\obj\Debug\netstandard2.0\ZZB.Tool.AssemblyInfo.cs
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\obj\Debug\netstandard2.0\ZZB.Tool.csproj.CoreCompileInputs.cache
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\obj\Debug\netstandard2.0\ZZB.Tool.dll
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\obj\Debug\netstandard2.0\ZZB.Tool.pdb
+C:\Users\Net\Desktop\WeiXin\ZZB.Core\ZZB.Tool\obj\Debug\netstandard2.0\ZZB.Tool.csprojAssemblyReference.cache

@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    
+}
+
+<div class="card" >
+    <div class="card-body table-responsive">
+        <table class="table table-hover text-nowrap">
+            <thead>
+                <tr>
+                    <th><el-checkbox name="type" style=""></el-checkbox></th>
+                    <th>文件名</th>
+                    <th>大小</th>
+                    <th>共享</th>
+                    <th>修改日期</th>
+                </tr>
+            </thead>
+            <tbody>
+                @*<tr v-for="item in tableData">
+                    <td width="5%"><el-checkbox name="type"></el-checkbox></td>
+                    <td width="50%">
+                        <img :src="item.iCon" style="width: 39px;padding-right:10px" />
+                        <a v-if="item.isFolder" href="javascript:void(0)" @@click="open(item.id,item.name)">{{item.name}}</a>
+
+                        <span v-else>{{item.fileUri}}<a :href="item.fileUri">{{item.name}}</a></span>
+                    </td>
+
+                    <td><span class="tag tag-success">{{item.fileSize}}</span></td>
+                    <td>
+                        <el-switch v-model="item.isShare == 'True'">
+                        </el-switch>
+                    </td>
+                    <td>{{item.modifyDateStr}}</td>
+                </tr>*@
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+@section Scripts
+{
+
+    <script>
+        var page = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    tableData: [],
+                }
+            },
+            created() {
+                this.Init();
+            },
+            methods: {
+                Init() {
+                    var that = this;
+                    $.post("UserList", function (res) {
+                        console.log(res)
+                        that.tableData = res;
+                    });
+                }
+            }
+        })
+    </script>
+}
+
+

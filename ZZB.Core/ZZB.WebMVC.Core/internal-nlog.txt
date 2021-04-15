@@ -1,0 +1,431 @@
+2021-03-17 15:01:44.0423 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-17 15:01:44.2803 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:01:44.2848 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:05:10.0345 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-17 15:05:10.1577 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:05:10.1700 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:05:10.2833 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-17 15:19:01.8001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-17 15:19:01.8819 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:19:01.8819 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:19:01.9293 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-17 15:27:24.4789 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-17 15:27:24.5504 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:27:24.5504 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:27:24.5872 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-17 15:29:52.5680 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-17 15:29:52.7751 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:29:52.7751 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:29:52.8752 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-17 15:33:12.5879 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-17 15:33:12.7719 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:33:12.7719 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:33:12.8113 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-17 15:34:43.0511 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-17 15:34:43.1352 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:34:43.1352 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-17 15:34:43.1862 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 00:57:13.3057 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 00:57:13.4256 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 00:57:13.4256 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 00:57:13.4733 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 01:00:45.1096 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 01:00:45.1777 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:00:45.1777 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:00:45.2257 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 01:02:50.1886 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 01:02:50.2680 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:02:50.2680 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:02:50.3184 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 01:06:38.3430 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 01:06:38.4010 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:06:38.4094 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:06:38.4433 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 01:13:55.1379 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 01:13:55.1974 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:13:55.2055 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:13:55.2388 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 01:15:04.3455 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 01:15:04.4408 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:15:04.4408 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:15:04.4975 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 01:21:05.5053 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 01:21:05.5873 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:21:05.5873 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 01:21:05.6454 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 08:47:57.9705 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 08:47:58.0611 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 08:47:58.0611 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 08:47:58.1236 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 08:52:52.0293 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 08:52:52.1350 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 08:52:52.1350 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 08:52:52.1727 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 09:09:30.9327 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 09:09:31.0568 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 09:09:31.0568 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 09:09:31.0946 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 09:56:06.9887 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 09:56:07.0970 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 09:56:07.0970 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 09:56:07.1415 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 10:23:22.8763 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 10:23:22.9429 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:23:22.9429 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:23:22.9878 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 10:24:06.9103 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 10:24:07.0105 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:24:07.0105 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:24:07.0505 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 10:24:57.6344 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 10:24:57.7088 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:24:57.7216 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:24:57.7555 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 10:28:08.1244 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 10:28:08.1962 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:28:08.1962 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 10:28:08.2352 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 12:36:21.0121 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 12:36:21.1299 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 12:36:21.1299 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 12:36:21.1673 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 12:54:30.9253 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 12:54:30.9874 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 12:54:30.9874 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 12:54:31.0292 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 14:02:50.7138 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 14:02:50.7874 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 14:02:50.7874 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 14:02:50.8274 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:16:35.2639 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:16:35.4120 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:16:35.4120 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:16:35.4827 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:17:15.1712 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:17:15.2766 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:17:15.2766 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:17:15.3171 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:18:29.8629 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:18:29.9417 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:18:29.9417 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:18:29.9795 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:20:05.4519 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:20:05.5517 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:20:05.5517 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:20:05.5996 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:21:58.8907 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:21:58.9608 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:21:58.9608 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:21:59.0099 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:24:25.8717 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:24:25.9447 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:24:25.9447 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:24:25.9831 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:24:47.2965 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:24:47.3826 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:24:47.3826 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:24:47.4180 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:25:30.5661 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:25:30.6450 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:25:30.6450 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:25:30.6844 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:53:58.2590 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:53:58.3336 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:53:58.3336 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:53:58.3812 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 16:55:25.9435 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 16:55:26.0081 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:55:26.0081 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 16:55:26.0516 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2021-03-18 17:11:18.8903 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-03-18 17:11:18.9881 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 17:11:18.9881 Warn Skipping unrecognized property 'servervariable=URL` for ${aspnet-request} (NLog.Web.LayoutRenderers.AspNetRequestValueLayoutRenderer)
+2021-03-18 17:11:19.0289 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
